@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TO DO ITEMS </title>
+        <meta name="description" content="">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Habibi&display=swap" rel="stylesheet">
+
+        <style>
+            body{
+                background-color: #FAFAFA;
+                font-family: 'Habibi', serif;
+                padding-top: 50px;
+            
+
+
+            
+            } 
+            
+
+            a,
+            p{
+                color: #15191d
+
+            }
+        
+            
+
+            .container {
+
+                max-width: 550px;
+                margin: auto;
+                background-color: #edf2f5;
+                -webkit-box-shadow:2px 2px 13px -4px rgba(0,0,0,0.21);
+                box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.21);
+                
+            }
+
+            .header-bar {
+                display: flex;
+                justify-content: space-between;
+                color: #44032b;
+                padding: 10px;
+                border-radius: 5px 5px 0 0;
+                background: linear-gradient(90deg, #dbe916 40%, #e68a22 90%, #db8a22 100%);
+            }
+
+            .header-bar a {
+                color: rgb(241, 237, 240);
+                text-decoration: none;
+            }
+
+
+            .task-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+                border-color: #FAFAFA;
+                border-top: 1px solid rgb(253, 200, 200);
+            }
+
+
+           
+
+        
+        </style>
+    
+   </head>
+   <body>
+
+         <div class="container">
+
+            {% block content %}
+
+            {% endblock content %}
+         </div>
+	
+  </body>
+</html>
